@@ -1,0 +1,41 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+
+  body{
+   background-color: whitesmoke;
+  }
+
+  .t1{
+   color: #063970;
+   border-collapse: collapse;
+   width: 600px;
+   font-size: 1.2rem;
+  }
+
+  .t1 th{
+    padding: 10px 5px;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+ }
+
+ .t1 td{
+    padding: 10px 5px;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+ }
+
+ thead{
+    background-color: lightblue;
+    color: #063970;
+ }
+
+ tbody th, td{
+   background-color: lightgrey;
+ }
+
+ tfoot{
+   background-color: lightblue;
+ }
